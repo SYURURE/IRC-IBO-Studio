@@ -1,0 +1,38 @@
+IRC IBO Studio 0.3.7 - はじめに
+
+1. ZIPを保存して「すべて展開」します。
+2. 初回：01_setup.pyw をダブルクリックして、完了を待ちます。
+3. 毎回：02_start.pyw をダブルクリックして起動します。
+
+必要なもの：64-bit Python 3.10以上（Tcl/Tk付き）、.pywのPython関連付け。
+初回セットアップはインターネットに接続して行ってください。
+PythonとIboViewは別途導入が必要です。詳しくはREADME_ja.mdへ。
+
+メモ帳などが開く場合：.pywの「プログラムから開く」でPython Launcher / Pythonを選択。
+Pythonがなければ https://www.python.org/downloads/ から先に導入してください。
+
+フォルダーを移動したら、01_setup.pywを再実行してください。
+エラー時は setup.log / launch.log / startup_error.txt / launcher_error.txt を確認します。
+実行中のセットアップがないのに「別のセットアップが実行中」と出る場合だけ、
+.studio-setup.lockを削除してから再実行してください。
+
+【重要：IboViewが起動できない場合】
+Windows 11のSmart App Controlが有効な環境では、IboViewがブロックされ、
+IBOの計算・軌道表示・PNG保存まで進めない場合があります。
+WinError 4551等が出る場合は、README.mdの「利用前に確認する注意事項」を確認してください。
+Studioが起動できれば経路整理・XYZ保存は利用できます。
+Windowsの保護設定を自動解除する処理はありません。
+
+【0.3.5：セットアップ画面】
+工程1はPython仮想環境の構築です。
+numpy / Pillow / imageio-ffmpegを一覧に表示し、
+「未インストール → インストール中 → インストール終了」で進み具合を示します。
+実行中の「キャンセル」は、作業を一時停止して確認を開きます。
+OK：中止し、今回の仮想環境と導入したモジュールを削除します。
+Cancel：一時停止した処理を再開します。
+既存のPython・完成済みの環境・入力データは保持します。
+
+【GitHub公開用パッケージ】
+GPL v3の公開条件はPUBLICATION_REVIEW.mdを確認してください。まだGitHubへ公開していません。
+LICENSE・THIRD_PARTY_NOTICES.md・licenses/を一緒に保持してください。
+同梱サンプルは人工データであり、IRC計算結果ではありません。
