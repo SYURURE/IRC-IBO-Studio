@@ -1,9 +1,0 @@
-Retrieved 2026-10-04. SHA-256 of packaged notices:
-3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986  LICENSE
-b9a063979cc10dad630d2d327cb366c508c6ad7fc8e0519ee905b769e00eaf17  licenses/IboView-COPYRIGHT.txt
-daaaa232407b979289e31dc6603aa132bcc632556eeb1eb94aa4891bec0999ea  licenses/NotoSansJP-OFL-1.1.txt
-
-IboView notice: https://raw.githubusercontent.com/KoehnLab/iboview/main/iboview-license.txt
-GPL v3: https://www.gnu.org/licenses/gpl-3.0.txt
-OFL text: https://spdx.org/licenses/OFL-1.1.txt
-OFL file also contains the original font copyright notice.
